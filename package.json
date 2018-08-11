@@ -1,0 +1,23 @@
+{
+  "name": "web3-subscribe-example",
+  "version": "1.0.0",
+  "description": "An example project for subscribing log events on web3 1.0",
+  "main": "src/index.js",
+  "repository": "git@github.com:vbilici/web3-subscribe-example.git",
+  "author": "Volkan Bilici",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node src/index.js",
+    "compile": "darq-truffle compile",
+    "deploy": "darq-truffle migrate --network dev --reset"
+  },
+  "devDependencies": {
+    "darq-truffle": "^4.1.4-next.10",
+    "openzeppelin-solidity": "^1.11.0",
+    "solium": "^1.1.8",
+    "truffle": "^4.1.13",
+    "web3": "^1.0.0-beta.35"
+  },
+  "dependencies": {}
+}
